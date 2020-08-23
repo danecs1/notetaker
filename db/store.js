@@ -26,7 +26,7 @@ class Store {
         })
     }
 
-    addNotes(note) {
+    addNote(note) {
         const { title, text } = note;
         // basic validation to check that a note has title or text
         if (!title || !text) {
